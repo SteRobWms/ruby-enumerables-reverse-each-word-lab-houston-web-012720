@@ -1,1 +1,1 @@
-reverse_each_word = sentence.each {|word| p word}
+reverse_each_word.each{|word| p word}
