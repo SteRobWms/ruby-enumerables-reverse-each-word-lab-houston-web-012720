@@ -5,7 +5,7 @@ def reverse_each_word(sentence)
     backwards_sentence_array.push(word.reverse)
   end
   backwards_sentence_string = backwards_sentence_array.each do |item|
-    backwards_sentence_string += item
+    backwards_sentence_string << item
   end
 end
 
