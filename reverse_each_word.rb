@@ -1,12 +1,7 @@
 def reverse_each_word(sentence)
-  sentence_array = []
-  newsent = sentence.reverse
-  newsent.split()
-  # do |word|
-    # sentence_array.push(word)
-  # end
-  # sentence_array
-  p newsent
+  sentence_array = sentence.split
+  sentence_array.reverse
+  p sentence_array
 end
 
 reverse_each_word("Hello there, and how are you?")
