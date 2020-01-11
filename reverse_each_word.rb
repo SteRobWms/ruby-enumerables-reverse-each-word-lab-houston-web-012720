@@ -8,7 +8,7 @@ def reverse_each_word(sentence)
   backwards_sentence_array.each do |item|
     backwards_sentence_string << item + " "
   end
-  backwards_sentence_string.slice(0..-1)
+  backwards_sentence_string.slice(0...-1)
 end
 
 # reverse_each_word("Hello there, and how are you?")
