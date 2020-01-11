@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   sentence_array.each do |word|
     backwards_sentence_array.push(word.reverse)
   end
-  p backwards_sentence_array
+  backwards_sentence_array
 end
 
-reverse_each_word("Hello there, and how are you?")
+# reverse_each_word("Hello there, and how are you?")
